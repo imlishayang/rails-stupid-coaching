@@ -1,0 +1,76 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+$blue: #495371;
+$white: #f1f1f1;
+$lightblue: #74959A;
+
+body {
+  background: $white;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.ask-center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid $blue;
+  padding: 50px;
+  background-color: #F9F3EE;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.ask-center h1 {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color: $blue;
+}
+
+.form-center {
+  text-align: center;
+  padding: 15px;
+}
+.ask-center h2 {
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  color: $lightblue;
+}
+
+.btn {
+  padding: 2px 16px 2px 16px;
+  font-family: 'Caveat', cursive;
+  font-size: 18px;
+}
+
+.ans-center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid $blue;
+  padding: 50px;
+}
+
+.ask-style {
+  font-family:  'Caveat';
+  font-weight: 200;
+  font-size: 20px;
+  border-left: 10px solid #C3DBD9;
+  padding: 10px 10px;
+}
+.answer-style {
+  background-color: #F7ECDE;
+  font-family:  'Caveat';
+  font-weight: 200;
+  font-size: 20px;
+  padding: 10px 10px;
+  border-left: 10px solid #C3DBD9;
+}
+
+.input {
+  width: 100%;
+}
